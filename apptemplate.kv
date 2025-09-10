@@ -1,0 +1,17 @@
+#:kivy 2.0.0
+
+<MainWidget>:
+    orientation: 'vertical'
+    padding: 10
+    spacing: 10
+
+    Label:
+        text: 'Welcome to Your New App!'
+        font_size: '24sp'
+        size_hint_y: None
+        height: self.texture_size[1]
+
+    Button:
+        text: 'Click Me'
+        on_press: print("Button clicked!")
+
